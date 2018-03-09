@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.auge.manage.dao.GoodsAttrInfoMapper">
+    <resultMap id="goodsAttrInfo" type="com.auge.manage.domain.GoodsAttrInfo">
+        <id column="attr_id" property="id"/>
+        <result column="attr_code" property="code"/>
+        <result column="attr_name" property="name"/>
+        <result column="attr_alias" property="alias"/>
+        <result column="attr_cat1" property="cat1"/>
+        <result column="attr_cat2" property="cat2"/>
+        <result column="attr_cat3" property="cat3"/>
+        <result column="attr_status" property="status"/>
+        <result column="attr_ctime" property="ctime"/>
+        <result column="attr_cperson" property="cperson"/>
+        <result column="attr_mtime" property="mtime"/>
+        <result column="attr_mperson" property="mperson"/>
+        <result column="attr_param1" property="param1"/>
+        <result column="attr_param2" property="param2"/>
+        <result column="attr_param3" property="param3"/>
+        <result column="attr_param4" property="param4"/>
+        <result column="attr_param5" property="param5"/>
+        <result column="attr_param6" property="param6"/>
+        <result column="attr_param7" property="param7"/>
+        <result column="attr_param8" property="param8"/>
+        <result column="attr_param9" property="param9"/>
+        <result column="attr_param10" property="param10"/>
+        <result column="attr_param11" property="param11"/>
+        <result column="attr_param12" property="param12"/>
+        <result column="attr_param13" property="param13"/>
+        <result column="attr_param14" property="param14"/>
+        <result column="attr_param15" property="param15"/>
+        <result column="attr_param16" property="param16"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        attr_id, attr_code, attr_name, attr_alias, attr_cat1, attr_cat2, attr_cat3, attr_status, attr_ctime, attr_cperson, attr_mtime, attr_mperson, attr_param1, attr_param2, attr_param3,attr_param4,attr_param5, attr_param6, attr_param7, attr_param8,attr_param9, attr_param10, attr_param11, attr_param12, attr_param13,attr_param14, attr_param15, attr_param16
+    </sql>
+
+    <insert id="addGoodsAttrInfo">
+        insert into wms_goods_attr ( attr_code, attr_name, attr_alias, attr_cat1, attr_cat2, attr_cat3, attr_status, attr_ctime, attr_cperson, attr_mtime, attr_mperson, attr_param1, attr_param2, attr_param3,attr_param4,attr_param5, attr_param6, attr_param7, attr_param8,attr_param9, attr_param10, attr_param11, attr_param12, attr_param13, attr_param14, attr_param15, attr_param16 )
+        values(#{code}, #{name}, #{alias}, #{cat1}, #{cat2}, #{cat3}, #{status}, #{ctime}, #{cperson}, #{mtime}, #{mperson}, #{param1}, #{param2}, #{param3}, #{param4}, #{param5},#{param6}, #{param7}, #{param8}, #{param9},#{param10}, #{param11}, #{param12}, #{param13}, #{param14}, #{param15}, #{param16})
+    </insert>
+
+    <select id="selectAll" resultMap="goodsAttrInfo">
+        select
+          <include refid="Base_Column_List" />
+        from
+          wms_goods_attr
+    </select>
+
+    <select id="selectGoodsAttrInfo" resultMap="goodsAttrInfo">
+        select
+          <include refid="Base_Column_List" />
+        from
+          wms_goods_attr
+        <where>
+            <if test="name != null and name != ''">
+                attr_name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectByName" resultMap="goodsAttrInfo">
+        select
+         <include refid="Base_Column_List" />
+        from
+         wms_goods_attr
+        <where>
+            <if test="name != null and name != ''">
+                attr_name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectMaxID" resultType="long">
+        select IFNULL(0, max(attr_id)) from wms_goods_attr
+    </select>
+
+    <update id="updateGoodsAttrInfo">
+        update
+          wms_goods_attr
+        set
+          attr_name = #{name},
+          attr_alias = #{alias},
+          attr_cat1 = #{cat1},
+          attr_cat2 = #{cat2},
+          attr_cat3 = #{cat3},
+          attr_status = #{status},
+          attr_mtime = #{mtime},
+          attr_mperson = #{mperson},
+          attr_param1 = #{param1},
+          attr_param2 = #{param2},
+          attr_param3 = #{param3},
+          attr_param4 = #{param4},
+          attr_param5 = #{param5},
+          attr_param6 = #{param6},
+          attr_param7 = #{param7},
+          attr_param8 = #{param8},
+          attr_param9 = #{param9},
+          attr_param10 = #{param10},
+          attr_param11 = #{param11},
+          attr_param12 = #{param12},
+          attr_param13 = #{param13},
+          attr_param14 = #{param14},
+          attr_param15 = #{param15},
+          attr_param16 = #{param16}
+        where
+          attr_id = #{id}
+    </update>
+
+    <select id="selectApproximateByName" resultMap="goodsAttrInfo">
+        select
+          <include refid="Base_Column_List" />
+        from
+          wms_goods_attr
+        where
+          attr_name like concat(concat('%',#{name}),'%')
+    </select>
+
+    <delete id="deleteById">
+        delete
+        from
+          wms_goods_attr
+        where
+          attr_id = #{id}
+    </delete>
+
+    <insert id="insertBatch">
+        insert into wms_goods_attr ( attr_code, attr_name, attr_alias, attr_cat1, attr_cat2, attr_cat3, attr_status, attr_ctime, attr_cperson, attr_mtime, attr_mperson, attr_param1, attr_param2, attr_param3,attr_param4,attr_param5, attr_param6, attr_param7, attr_param8,attr_param9, attr_param10, attr_param11, attr_param12, attr_param13,attr_param14, attr_param15, attr_param16)
+        values
+        <foreach collection="list" item="goodsAttrInfo" separator=",">
+            (#{goodsAttrInfo.code},#{goodsAttrInfo.name},#{goodsAttrInfo.type},#{goodsAttrInfo.cat1},#{goodsAttrInfo.cat2},#{goodsAttrInfo.cat3},#{goodsAttrInfo.status},#{goodsAttrInfo.ctime},#{goodsAttrInfo.cperson},#{goodsAttrInfo.mtime},#{goodsAttrInfo.mperson},#{goodsAttrInfo.param1},#{goodsAttrInfo.param2},#{goodsAttrInfo.param3},#{goodsAttrInfo.param4},#{goodsAttrInfo.param5},#{goodsAttrInfo.param6}, #{goodsAttrInfo.param7},#{goodsAttrInfo.param8},#{goodsAttrInfo.param9},#{goodsAttrInfo.param10},#{goodsAttrInfo.param11},#{goodsAttrInfo.param12},#{goodsAttrInfo.param13},#{goodsAttrInfo.param14},#{goodsAttrInfo.param15},#{goodsAttrInfo.param16})
+        </foreach>
+    </insert>
+
+</mapper>

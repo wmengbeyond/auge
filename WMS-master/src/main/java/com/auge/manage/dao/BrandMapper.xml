@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.auge.manage.dao.BrandMapper">
+    <resultMap id="brand" type="com.auge.manage.domain.Brand">
+        <id column="brand_id" property="id"/>
+        <result column="brand_code" property="code"/>
+        <result column="brand_name" property="name"/>
+        <result column="brand_type" property="type"/>
+        <result column="brand_cj" property="changjia"/>
+        <result column="brand_status" property="status"/>
+        <result column="brand_ctime" property="ctime"/>
+        <result column="brand_cperson" property="cperson"/>
+        <result column="brand_mtime" property="mtime"/>
+        <result column="brand_mperson" property="mperson"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        brand_id, brand_code, brand_name, brand_type, brand_cj, brand_status, brand_ctime, brand_cperson, brand_mtime, brand_mperson
+    </sql>
+
+    <insert id="addBrand">
+        insert into wms_brand ( brand_code, brand_name, brand_type, brand_cj, brand_status, brand_ctime, brand_cperson, brand_mtime, brand_mperson )
+        values(#{code}, #{name}, #{type}, #{changjia}, #{status}, #{ctime}, #{cperson}, #{mtime}, #{mperson})
+    </insert>
+
+    <select id="selectAll" resultMap="brand">
+        select
+          <include refid="Base_Column_List" />
+        from
+        wms_brand
+    </select>
+
+    <select id="selectBrand" resultMap="brand">
+        select
+          <include refid="Base_Column_List" />
+        from
+          wms_brand
+        <where>
+            <if test="name != null and name != ''">
+                brand_name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectByName" resultMap="brand">
+        select
+        <include refid="Base_Column_List" />
+        from
+        wms_brand
+        <where>
+            <if test="name != null and name != ''">
+                brand_name = #{name}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectMaxID" resultType="long">
+        select IFNULL(0, max(brand_id)) from wms_brand
+    </select>
+
+    <update id="updateBrand">
+        update
+          wms_brand
+        set
+          brand_name = #{name},
+          brand_type = #{type},
+          brand_cj = #{changjia},
+          brand_status = #{status},
+          brand_mtime = #{mtime},
+          brand_mperson = #{mperson}
+        where
+          brand_id = #{id}
+    </update>
+
+    <select id="selectApproximateByName" resultMap="brand">
+        select
+          <include refid="Base_Column_List" />
+        from
+          wms_brand
+        where
+          brand_name like concat(concat('%',#{name}),'%')
+    </select>
+
+    <delete id="deleteById">
+        delete
+        from
+          wms_brand
+        where
+          brand_id = #{id}
+    </delete>
+
+    <insert id="insertBatch">
+        insert into wms_brand ( brand_code, brand_name, brand_type, brand_cj, brand_status, brand_ctime, brand_cperson, brand_mtime, brand_mperson )
+        values
+        <foreach collection="list" item="brand" separator=",">
+            (#{brand.code},#{brand.name},#{brand.type},#{brand.changjia},#{brand.status},#{brand.ctime},#{brand.cperson},#{brand.mtime},#{brand.mperson})
+        </foreach>
+    </insert>
+
+</mapper>

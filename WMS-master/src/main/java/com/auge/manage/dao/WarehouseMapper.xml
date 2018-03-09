@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.auge.manage.dao.WarehouseMapper">
+    <resultMap id="warehouse" type="com.auge.manage.domain.Warehouse">
+        <id column="wh_id" property="id"/>
+        <result column="wh_code" property="code"/>
+        <result column="wh_name" property="name"/>
+        <result column="wh_addr" property="addr"/>
+        <result column="wh_tel" property="tel"/>
+        <result column="wh_contact" property="contact"/>
+        <result column="wh_phone" property="phone"/>
+        <result column="wh_mtime" property="mtime"/>
+        <result column="wh_ctime" property="ctime"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        wh_id, wh_code, wh_name, wh_addr, wh_tel, wh_contact, wh_phone, wh_mtime, wh_ctime
+    </sql>
+
+    <insert id="insertWarehouse">
+        insert into wms_warehouse ( wh_code, wh_name, wh_addr, wh_tel, wh_contact, wh_phone, wh_mtime, wh_ctime )
+        values(#{code}, #{name}, #{addr}, #{tel}, #{contact}, #{phone}, #{mtime}, #{ctime})
+    </insert>
+
+    <select id="selectWarehouse" resultMap="warehouse">
+        select
+            <include refid="Base_Column_List" />
+        from
+            wms_warehouse
+        <where>
+            <if test="code != null and code != ''">
+                wh_code = #{code}
+            </if>
+            <if test="name != null and name != ''">
+                wh_name = #{name}
+            </if>
+            <if test="contact != null and contact != ''">
+                wh_contact = #{contact}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateByIdSelective" parameterType="Object">
+        update wms_warehouse
+        set
+        <trim suffixOverrides=",">
+            <if test="@com.auge.utils.Tools@isEmpty(name)">
+                wh_name = #{name},
+            </if>
+            <if test="addr != null  and addr != '' ">
+                wh_addr = #{addr},
+            </if>
+            <if test="tel != null  and tel != '' ">
+                wh_tel = #{tel},
+            </if>
+            <if test="contact != null  and contact != '' ">
+                wh_contact = #{contact},
+            </if>
+            <if test="phone != null  and phone != '' ">
+                wh_phone = #{phone},
+            </if>
+            <if test="mtime != null  and mtime != '' ">
+                wh_mtime = #{mtime},
+            </if>
+        </trim>
+        where wh_code = #{code}
+    </update>
+
+    <delete id="deleteWarehouse">
+        delete from wms_warehouse where wh_code = #{code}
+    </delete>
+</mapper>
