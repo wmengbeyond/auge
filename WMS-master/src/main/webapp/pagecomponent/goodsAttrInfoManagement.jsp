@@ -973,18 +973,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性1：</span></label>
+                                            <label> <span>属性01：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param1" name="add_attr_param1"
-                                                   placeholder="属性1">
+                                                   placeholder="属性01">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性2：</span></label>
+                                            <label> <span>属性02：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param2" name="add_attr_param2"
-                                                   placeholder="属性2">
+                                                   placeholder="属性02">
                                         </div>
                                     </div>
                                 </div>
@@ -993,18 +993,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性3：</span></label>
+                                            <label> <span>属性03：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param3" name="add_attr_param3"
-                                                   placeholder="属性3">
+                                                   placeholder="属性03">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性4：</span></label>
+                                            <label> <span>属性04：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param4" name="add_attr_param4"
-                                                   placeholder="属性4">
+                                                   placeholder="属性04">
                                         </div>
                                     </div>
                                 </div>
@@ -1013,18 +1013,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性5：</span></label>
+                                            <label> <span>属性05：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param5" name="add_attr_param5"
-                                                   placeholder="属性5">
+                                                   placeholder="属性05">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性6：</span></label>
+                                            <label> <span>属性06：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param6" name="add_attr_param6"
-                                                   placeholder="属性6">
+                                                   placeholder="属性06">
                                         </div>
                                     </div>
                                 </div>
@@ -1033,18 +1033,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性7：</span></label>
+                                            <label> <span>属性07：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param7" name="add_attr_param7"
-                                                   placeholder="属性7">
+                                                   placeholder="属性07">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性8：</span></label>
+                                            <label> <span>属性08：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param8" name="add_attr_param8"
-                                                   placeholder="属性8">
+                                                   placeholder="属性08">
                                         </div>
                                     </div>
                                 </div>
@@ -1053,9 +1053,9 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性9：</span></label>
+                                            <label> <span>属性09：</span></label>
                                             <input type="text" class="form-control" id="add_attr_param9" name="add_attr_param9"
-                                                   placeholder="属性9">
+                                                   placeholder="属性09">
                                         </div>
                                     </div>
                                 </div>
@@ -1276,18 +1276,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性1：</span></label>
+                                            <label> <span>属性01：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param1" name="edit_attr_param1"
-                                                   placeholder="属性1">
+                                                   placeholder="属性01">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性2：</span></label>
+                                            <label> <span>属性02：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param2" name="edit_attr_param2"
-                                                   placeholder="属性2">
+                                                   placeholder="属性02">
                                         </div>
                                     </div>
                                 </div>
@@ -1296,18 +1296,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性3：</span></label>
+                                            <label> <span>属性03：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param3" name="edit_attr_param3"
-                                                   placeholder="属性3">
+                                                   placeholder="属性03">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性4：</span></label>
+                                            <label> <span>属性04：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param4" name="edit_attr_param4"
-                                                   placeholder="属性4">
+                                                   placeholder="属性04">
                                         </div>
                                     </div>
                                 </div>
@@ -1316,18 +1316,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性5：</span></label>
+                                            <label> <span>属性05：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param5" name="edit_attr_param5"
-                                                   placeholder="属性5">
+                                                   placeholder="属性05">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性6：</span></label>
+                                            <label> <span>属性06：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param6" name="edit_attr_param6"
-                                                   placeholder="属性6">
+                                                   placeholder="属性06">
                                         </div>
                                     </div>
                                 </div>
@@ -1336,18 +1336,18 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性7：</span></label>
+                                            <label> <span>属性07：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param7" name="edit_attr_param7"
-                                                   placeholder="属性7">
+                                                   placeholder="属性07">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-right">
                                         <div class="form-inline">
-                                            <label> <span>属性8：</span></label>
+                                            <label> <span>属性08：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param8" name="edit_attr_param8"
-                                                   placeholder="属性8">
+                                                   placeholder="属性08">
                                         </div>
                                     </div>
                                 </div>
@@ -1356,9 +1356,9 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="pull-left">
                                         <div class="form-inline">
-                                            <label> <span>属性9：</span></label>
+                                            <label> <span>属性09：</span></label>
                                             <input type="text" class="form-control" id="edit_attr_param9" name="edit_attr_param9"
-                                                   placeholder="属性9">
+                                                   placeholder="属性09">
                                         </div>
                                     </div>
                                 </div>

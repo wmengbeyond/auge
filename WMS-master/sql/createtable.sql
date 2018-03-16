@@ -7,7 +7,7 @@ use wms_db;
 # 创建数据表
 
 # 创建供应商信息表
-create table wms_supplier
+create table wms_supplier_tmp
 (
 	SUPPLIER_ID int not null auto_increment,
     SUPPLIER_NAME varchar(30) not null,
@@ -77,7 +77,7 @@ create table wms_record_in
     RECORD_PERSON varchar(10) not null,
     RECORD_REPOSITORYID int not null,
     primary key(RECORD_ID),
-    foreign key(RECORD_SUPPLIERID) references wms_supplier(SUPPLIER_ID),
+    foreign key(RECORD_SUPPLIERID) references wms_supplier_tmp(SUPPLIER_ID),
     foreign key(RECORD_GOODID) references wms_goods(GOOD_ID),
     foreign key(RECORD_REPOSITORYID) references wms_respository(REPO_ID)
 )engine=innodb;
@@ -200,7 +200,7 @@ INSERT INTO `wms_action` VALUES (1,'addSupplier',NULL,'/supplierManage/addSuppli
 INSERT INTO `wms_role_action` VALUES (1,1),(2,1),(3,1),(4,1),(5,1),(6,1),(7,1),(8,1),(9,1),(10,1),(11,1),(12,1),(13,1),(14,1),(15,1),(16,1),(17,1),(18,1),(19,1),(20,1),(21,1),(22,1),(23,1),(24,1),(25,1),(26,1),(27,1),(28,1),(29,1),(30,1),(31,1),(32,1),(33,1),(34,1),(35,1),(36,1),(37,1),(39,1),(40,1),(41,1),(42,1),(43,1),(44,1),(45,1),(46,1),(47,1),(48,1),(4,2),(8,2),(15,2),(38,2),(43,2),(44,2),(45,2);
 
 # 导入供应商信息
-INSERT INTO `wms_supplier` VALUES (1013,'浙江奇同电器有限公司','王泽伟','13777771126','86827868@126.com','中国 浙江 温州市龙湾区 龙湾区永强大道1648号'),(1014,'醴陵春天陶瓷实业有限公司','温仙容','13974167256','23267999@126.com','中国 湖南 醴陵市 东正街15号'),(1015,'洛阳嘉吉利饮品有限公司','郑绮云','26391678','22390898@qq.com','中国 广东 佛山市顺德区 北滘镇怡和路2号怡和中心14楼');
+INSERT INTO `wms_supplier_tmp` VALUES (1013,'浙江奇同电器有限公司','王泽伟','13777771126','86827868@126.com','中国 浙江 温州市龙湾区 龙湾区永强大道1648号'),(1014,'醴陵春天陶瓷实业有限公司','温仙容','13974167256','23267999@126.com','中国 湖南 醴陵市 东正街15号'),(1015,'洛阳嘉吉利饮品有限公司','郑绮云','26391678','22390898@qq.com','中国 广东 佛山市顺德区 北滘镇怡和路2号怡和中心14楼');
 
 # 导入客户信息
 INSERT INTO `wms_customer` VALUES (1214,'醴陵荣旗瓷业有限公司','陈娟','17716786888','23369888@136.com','中国 湖南 醴陵市 嘉树乡玉茶村柏树组'),(1215,'深圳市松林达电子有限公司','刘明','85263335-820','85264958@126.com','中国 广东 深圳市宝安区 深圳市宝安区福永社区桥头村桥塘路育'),(1216,'郑州绿之源饮品有限公司 ','赵志敬','87094196','87092165@qq.com','中国 河南 郑州市 郑州市嘉亿东方大厦609');

@@ -84,3 +84,40 @@ CREATE TABLE `wms_goods_attr` (
   KEY `idx_name` (`attr_name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
+
+
+CREATE TABLE `wms_supplier` (
+  `supplier_id` int(11) NOT NULL AUTO_INCREMENT,
+  `supplier_code` varchar(16) NOT NULL COMMENT '供应商编码',
+  `supplier_person` varchar(32) NOT NULL DEFAULT '' COMMENT '业务联系人',
+  `supplier_name` varchar(32) NOT NULL DEFAULT '' COMMENT '供应商名称',
+  `supplier_addr` varchar(32) NOT NULL DEFAULT '' COMMENT '经营地址',
+  `supplier_email` varchar(16) NOT NULL DEFAULT '' COMMENT '业务邮箱',
+  `supplier_billtype` varchar(16) NOT NULL DEFAULT '' COMMENT '票据类型',
+  `supplier_bank` varchar(16) NOT NULL DEFAULT '' COMMENT '结算银行',
+  `supplier_contact` varchar(16) NOT NULL DEFAULT '' COMMENT '联系方式',
+  `supplier_area` varchar(16) NOT NULL DEFAULT '' COMMENT '所属区域',
+  `supplier_tel` varchar(16) NOT NULL DEFAULT '' COMMENT '固话/传真',
+  `supplier_taxrate` varchar(16) NOT NULL DEFAULT '' COMMENT '开票税点',
+  `supplier_yhzh` varchar(16) NOT NULL DEFAULT '' COMMENT '银行账户',
+  `supplier_alias` varchar(16) NOT NULL DEFAULT '' COMMENT '简称',
+  `supplier_card` varchar(16) NOT NULL DEFAULT '' COMMENT '身份证号',
+  `supplier_city` varchar(16) NOT NULL DEFAULT '' COMMENT '所属城市',
+  `supplier_qqwx` varchar(16) NOT NULL DEFAULT '' COMMENT '业务QQ/微信',
+  `supplier_payment` varchar(16) NOT NULL DEFAULT '' COMMENT '付款方式',
+  `supplier_bankacc` varchar(16) NOT NULL DEFAULT '' COMMENT '银行账号',
+  `supplier_collaboratetype` varchar(16) NOT NULL DEFAULT '' COMMENT '合作类型',
+  `supplier_cardimg` varchar(16) NOT NULL DEFAULT '' COMMENT '身份证照',
+  `supplier_store` varchar(16) NOT NULL DEFAULT '' COMMENT '所属仓库',
+  `supplier_channel` varchar(16) NOT NULL DEFAULT '' COMMENT '进货渠道',
+  `supplier_taxNumber` varchar(16) NOT NULL DEFAULT '' COMMENT '企业税号',
+  `supplier_billdata` varchar(16) NOT NULL DEFAULT '' COMMENT '开票资料',
+  `supplier_status` int(11) NOT NULL DEFAULT '1' COMMENT '供应商信息状态 1 启用 0 禁用',
+  `supplier_ctime` bigint(13) DEFAULT '0' COMMENT '创建时间',
+  `supplier_cperson` varchar(16) NOT NULL DEFAULT '' COMMENT '建档人',
+  `supplier_mtime` bigint(13) DEFAULT '0' COMMENT '修改时间',
+  `supplier_mperson` varchar(16) NOT NULL DEFAULT '' COMMENT '修改人',
+  PRIMARY KEY (`supplier_id`),
+  UNIQUE KEY `idx_code` (`supplier_code`),
+  KEY `idx_name` (`supplier_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;

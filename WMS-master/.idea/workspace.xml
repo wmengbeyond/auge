@@ -17,38 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoodsAttrInfoMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.xml">
+      <file leaf-file-name="GoodsAttrInfoMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="42" />
-              <folding>
-                <marker date="1520595855697" expanded="true" signature="2344:3023" ph="insert into wms_goods_attr... " />
-                <marker date="1520595855697" expanded="true" signature="3101:3192" ph="select from wms_goods_attr" />
-                <marker date="1520595855697" expanded="true" signature="3891:3941" ph="select IFNUL... wms_goods_attr" />
-                <marker date="1520595855697" expanded="true" signature="4003:4921" ph="update wms_g... " />
-                <marker date="1520595855697" expanded="true" signature="5013:5175" ph="select from wms_goods_attr" />
-                <marker date="1520595855697" expanded="true" signature="5228:5312" ph="delete from " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/info.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="1254">
+              <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsAttrInfoMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.java">
+      <file leaf-file-name="info.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/info.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="132">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,14 +40,9 @@
       <file leaf-file-name="goodsAttrInfoManagement.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsAttrInfoManagement.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="477" column="52" lean-forward="true" selection-start-line="477" selection-start-column="52" selection-end-line="477" selection-end-column="52" />
-              <folding>
-                <element signature="e#22092#23381#0#HTML" expanded="false" />
-                <element signature="e#22162#22254#0#HTML" expanded="false" />
-                <element signature="e#22308#22397#0#HTML" expanded="false" />
-                <element signature="e#23205#23348#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="27544">
+              <caret line="1252" column="37" lean-forward="false" selection-start-line="1252" selection-start-column="37" selection-end-line="1252" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/exception/GoodsAttrInfoManageServiceException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,18 +60,8 @@
       <file leaf-file-name="GoodsAttrInfoManageServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Impl/GoodsAttrInfoManageServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="2464">
               <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsAttrInfoManageService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Interface/GoodsAttrInfoManageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="99" column="47" lean-forward="false" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -102,24 +70,14 @@
       <file leaf-file-name="GoodsAttrInfoManageHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsAttrInfoManageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="2288">
               <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.0.RELEASE/spring-aop-4.3.0.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -132,12 +90,49 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GoodsCategoryManageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsCategoryManageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3498">
+              <caret line="176" column="30" lean-forward="false" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockInMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/StockInMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="56" />
+              <folding>
+                <marker date="1521178388740" expanded="true" signature="861:1364" ph="select r.REC... wms_record_in" />
+                <marker date="1521178388740" expanded="true" signature="1436:1982" ph="select r.REC... wms_record_in" />
+                <marker date="1521178388740" expanded="true" signature="2050:2588" ph="select r.REC... wms_record_in" />
+                <marker date="1521178388740" expanded="true" signature="2652:3182" ph="select r.REC... wms_record_in" />
+                <marker date="1521178388740" expanded="true" signature="3256:3806" ph="select r.REC... wms_record_in" />
+                <marker date="1521178388740" expanded="true" signature="4864:5068" ph="insert into wms_record_in... " />
+                <marker date="1521178388740" expanded="true" signature="5106:5326" ph="update wms_r... " />
+                <marker date="1521178388740" expanded="true" signature="5368:5419" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createtable.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/createtable.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>changjia_</find>
-      <find>edit_modal_submit</find>
       <find>add_btn</find>
       <find>客户</find>
       <find>addAction</find>
@@ -166,6 +161,8 @@
       <find>GoodsInfo</find>
       <find>goodsInfos</find>
       <find>getGoodsAttrInfoList</find>
+      <find>supplier</find>
+      <find>wms_supplier</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -197,6 +194,7 @@
       <replace>GoodsAttrInfo</replace>
       <replace>goodsAttrInfos</replace>
       <replace>goodsAttrInfo</replace>
+      <replace>wms_supplier_tmp</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -207,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/security/controller/PageForwardHandler.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage22.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/mainPage.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
@@ -245,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/dao/BrandMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsInfoManagement.jsp" />
-        <option value="$PROJECT_DIR$/sql/info.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mainPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Impl/GoodsAttrInfoManageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/exception/GoodsInfoManageServiceException.java" />
@@ -256,8 +252,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsAttrInfoManagement.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsAttrInfoManagement.jsp" />
+        <option value="$PROJECT_DIR$/sql/createtable.sql" />
+        <option value="$PROJECT_DIR$/sql/info.sql" />
       </list>
     </option>
   </component>
@@ -312,6 +310,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,145 +328,10 @@
               <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pagecomponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WMS-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WMS-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -776,11 +640,16 @@
       <workItem from="1520509683706" duration="2468000" />
       <workItem from="1520558965340" duration="5959000" />
       <workItem from="1520578604076" duration="13497000" />
+      <workItem from="1520673180157" duration="1261000" />
+      <workItem from="1520861332070" duration="24000" />
+      <workItem from="1520948208402" duration="1690000" />
+      <workItem from="1521114344070" duration="752000" />
+      <workItem from="1521176943649" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154077000" />
+    <option name="totallyTimeSpent" value="159398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,11 +680,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29211086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -887,19 +756,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pagecomponent/brandManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Impl/GoodsManageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,15 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsCategoryManageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,16 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <marker date="1517309926798" expanded="true" signature="556:663" ph="select g.GOO... wms_goods" />
-            <marker date="1517309926798" expanded="true" signature="723:859" ph="select g.GOO... wms_goods" />
-            <marker date="1517309926798" expanded="true" signature="921:1066" ph="select g.GOO... wms_goods" />
-            <marker date="1517309926798" expanded="true" signature="1139:1311" ph="select g.GOO... wms_goods" />
-            <marker date="1517309926798" expanded="true" signature="1348:1455" ph="insert into wms_goods... " />
-            <marker date="1517309926798" expanded="true" signature="1740:1889" ph="update wms_g... " />
-            <marker date="1517309926798" expanded="true" signature="1931:1976" ph="delete from " />
-            <marker date="1517309926798" expanded="true" signature="2020:2074" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5786">
           <caret line="288" column="47" lean-forward="false" selection-start-line="288" selection-start-column="47" selection-end-line="288" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1483">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="59" column="10" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2046">
           <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,35 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
           <caret line="265" column="42" lean-forward="false" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
-          <folding>
-            <element signature="docComment;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#selectById#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#selectById#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#selectByName#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#selectByName#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#selectByName#1;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#selectByName#1;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#selectAll#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#selectAll#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#selectAll#1;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#selectAll#1;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#customerCheck#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="method#customerCheck#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#addCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="e#6259#6291#0" expanded="false" />
-            <element signature="method#addCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#updateCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="e#7033#7065#0" expanded="false" />
-            <element signature="method#updateCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#deleteCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="e#7951#7983#0" expanded="false" />
-            <element signature="docComment;method#importCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="e#8714#8746#0" expanded="false" />
-            <element signature="method#importCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#exportCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-            <element signature="e#10173#10205#0" expanded="false" />
-            <element signature="method#exportCustomer#0;class#CustomerManageServiceImpl#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,15 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/createtable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3027">
           <caret line="358" column="23" lean-forward="false" selection-start-line="358" selection-start-column="23" selection-end-line="358" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,14 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-          <folding>
-            <marker date="1520584256823" expanded="true" signature="1212:1472" ph="insert into wms_category... " />
-            <marker date="1520584256823" expanded="true" signature="1550:1645" ph="select from wms_category" />
-            <marker date="1520584256823" expanded="true" signature="2671:2729" ph="select max(c... wms_category" />
-            <marker date="1520584256823" expanded="true" signature="2791:3068" ph="update wms_c... " />
-            <marker date="1520584256823" expanded="true" signature="3160:3330" ph="select from wms_category" />
-            <marker date="1520584256823" expanded="true" signature="3383:3475" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,16 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <marker date="1517309926395" expanded="true" signature="654:807" ph="select c.CUS... wms_customer" />
-            <marker date="1517309926395" expanded="true" signature="870:1056" ph="select c.CUS... wms_customer" />
-            <marker date="1517309926395" expanded="true" signature="1121:1319" ph="select c.CUS... wms_customer" />
-            <marker date="1517309926395" expanded="true" signature="1395:1620" ph="select c.CUS... wms_customer" />
-            <marker date="1517309926395" expanded="true" signature="1658:1822" ph="insert into wms_customer... " />
-            <marker date="1517309926395" expanded="true" signature="2188:2404" ph="update wms_c... " />
-            <marker date="1517309926395" expanded="true" signature="2446:2498" ph="delete from " />
-            <marker date="1517309926395" expanded="true" signature="2542:2598" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,15 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <marker date="1520584286380" expanded="true" signature="1064:1314" ph="insert into wms_brand... " />
-            <marker date="1520584286380" expanded="true" signature="1384:1468" ph="select from wms_brand" />
-            <marker date="1520584286380" expanded="true" signature="1839:2061" ph="select c.CUS... wms_customer" />
-            <marker date="1520584286380" expanded="true" signature="2133:2179" ph="select from wms_brand" />
-            <marker date="1520584286380" expanded="true" signature="2233:2517" ph="update wms_b... " />
-            <marker date="1520584286380" expanded="true" signature="2601:2759" ph="select from wms_customer" />
-            <marker date="1520584286380" expanded="true" signature="2812:2892" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,9 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding>
-            <marker date="1517309929679" expanded="true" signature="704:872" ph="insert into wms_access_record... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="379" column="23" lean-forward="false" selection-start-line="379" selection-start-column="12" selection-end-line="379" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,109 +986,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="462" column="60" lean-forward="false" selection-start-line="462" selection-start-column="60" selection-end-line="462" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/exception/GoodsInfoManageServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/domain/GoodsInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5544">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/exception/GoodsInfoManageServiceException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/domain/GoodsInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pagecomponent/welcomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="138" column="9" lean-forward="false" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsDataInfoMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Interface/GoodsAttrInfoManageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
+        <state relative-caret-position="2046">
           <caret line="99" column="47" lean-forward="false" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.0.RELEASE/spring-aop-4.3.0.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="3234">
           <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="42" />
-          <folding>
-            <marker date="1520595855697" expanded="true" signature="2344:3023" ph="insert into wms_goods_attr... " />
-            <marker date="1520595855697" expanded="true" signature="3101:3192" ph="select from wms_goods_attr" />
-            <marker date="1520595855697" expanded="true" signature="3891:3941" ph="select IFNUL... wms_goods_attr" />
-            <marker date="1520595855697" expanded="true" signature="4003:4921" ph="update wms_g... " />
-            <marker date="1520595855697" expanded="true" signature="5013:5175" ph="select from wms_goods_attr" />
-            <marker date="1520595855697" expanded="true" signature="5228:5312" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/info.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/service/Impl/GoodsAttrInfoManageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="2464">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsAttrInfoManageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1332,21 +1025,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/exception/GoodsAttrInfoManageServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsAttrInfoManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="477" column="52" lean-forward="true" selection-start-line="477" selection-start-column="52" selection-end-line="477" selection-end-column="52" />
-          <folding>
-            <element signature="e#22092#23381#0#HTML" expanded="false" />
-            <element signature="e#22162#22254#0#HTML" expanded="false" />
-            <element signature="e#22308#22397#0#HTML" expanded="false" />
-            <element signature="e#23205#23348#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,6 +1038,78 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsCategoryManageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3498">
+          <caret line="176" column="30" lean-forward="false" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/common/controller/GoodsAttrInfoManageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pagecomponent/goodsAttrInfoManagement.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27544">
+          <caret line="1252" column="37" lean-forward="false" selection-start-line="1252" selection-start-column="37" selection-end-line="1252" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/GoodsAttrInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auge/manage/dao/StockInMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <marker date="1521178388740" expanded="true" signature="861:1364" ph="select r.REC... wms_record_in" />
+            <marker date="1521178388740" expanded="true" signature="1436:1982" ph="select r.REC... wms_record_in" />
+            <marker date="1521178388740" expanded="true" signature="2050:2588" ph="select r.REC... wms_record_in" />
+            <marker date="1521178388740" expanded="true" signature="2652:3182" ph="select r.REC... wms_record_in" />
+            <marker date="1521178388740" expanded="true" signature="3256:3806" ph="select r.REC... wms_record_in" />
+            <marker date="1521178388740" expanded="true" signature="4864:5068" ph="insert into wms_record_in... " />
+            <marker date="1521178388740" expanded="true" signature="5106:5326" ph="update wms_r... " />
+            <marker date="1521178388740" expanded="true" signature="5368:5419" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/createtable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/info.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

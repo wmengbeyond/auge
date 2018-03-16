@@ -23,7 +23,7 @@
 			s.SUPPLIER_EMAIL,
 			s.SUPPLIER_ADDRESS
 		from
-			wms_supplier s
+			wms_supplier_tmp s
 	</select>
 	
 	<select id="selectById" resultMap="supplier">
@@ -35,7 +35,7 @@
 			s.SUPPLIER_EMAIL,
 			s.SUPPLIER_ADDRESS
 		from
-			wms_supplier s
+			wms_supplier_tmp s
 		where
 			s.SUPPLIER_ID = #{id}
 	</select>
@@ -49,7 +49,7 @@
 			s.SUPPLIER_EMAIL,
 			s.SUPPLIER_ADDRESS
 		from
-			wms_supplier s
+			wms_supplier_tmp s
 		where
 			s.SUPPLIER_NAME = #{supplierName}
 	</select>
@@ -63,18 +63,18 @@
 			s.SUPPLIER_EMAIL,
 			s.SUPPLIER_ADDRESS
 		from
-			wms_supplier s
+			wms_supplier_tmp s
 		where
 			s.SUPPLIER_NAME like concat(concat('%',#{supplierName}),'%')
 	</select>
 	
 	<insert id="insert" keyProperty="id" useGeneratedKeys="true">
-		insert into wms_supplier(SUPPLIER_NAME,SUPPLIER_PERSON,SUPPLIER_TEL,SUPPLIER_EMAIL,SUPPLIER_ADDRESS)
+		insert into wms_supplier_tmp(SUPPLIER_NAME,SUPPLIER_PERSON,SUPPLIER_TEL,SUPPLIER_EMAIL,SUPPLIER_ADDRESS)
 		values(#{name},#{personInCharge},#{tel},#{email},#{address})
 	</insert>
 	
 	<insert id="insertBatch">
-		insert into wms_supplier(SUPPLIER_NAME,SUPPLIER_PERSON,SUPPLIER_TEL,SUPPLIER_EMAIL,SUPPLIER_ADDRESS)
+		insert into wms_supplier_tmp(SUPPLIER_NAME,SUPPLIER_PERSON,SUPPLIER_TEL,SUPPLIER_EMAIL,SUPPLIER_ADDRESS)
 		values
 		<foreach collection="list" item="supplier" separator=",">
 			(#{supplier.name},#{supplier.personInCharge},#{supplier.tel},#{supplier.email},#{supplier.address})
@@ -83,7 +83,7 @@
 	
 	<update id="update">
 		update 
-			wms_supplier
+			wms_supplier_tmp
 		set
 			SUPPLIER_NAME = #{name},
 			SUPPLIER_PERSON = #{personInCharge},
@@ -95,12 +95,12 @@
 	</update>
 	
 	<delete id="deleteById">
-		delete from wms_supplier
+		delete from wms_supplier_tmp
 		where SUPPLIER_ID = #{id}
 	</delete>
 	
 	<delete id="deleteByName">
-		delete from wms_supplier
+		delete from wms_supplier_tmp
 		where SUPPLIER_NAME = #{name}
 	</delete>
  </mapper>
